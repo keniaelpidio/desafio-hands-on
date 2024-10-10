@@ -1,0 +1,54 @@
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte utilizada */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #f9e59e; /* Cor de fundo amarelo claro */
+    display: flex; /* Usa flexbox para disposição */
+    justify-content: space-between; /* Espaça logo e menu */
+    align-items: center; /* Centraliza itens verticalmente */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo do logo */
+.logo {
+    font-size: 24px; /* Tamanho da fonte do logo */
+    font-weight: bold; /* Negrito para o logo */
+}
+
+/* Estilo do menu de navegação */
+nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    display: flex; /* Usa flexbox para disposição horizontal */
+    gap: 15px; /* Espaçamento entre os itens do menu */
+}
+
+/* Estilo dos links do menu */
+nav a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #333; /* Cor do texto */
+    font-weight: bold; /* Negrito para os links */
+}
+
+/* Estilo da seção hero */
+.hero-image {
+    position: relative; /* Permite posicionamento absoluto dos elementos filhos */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo da imagem na seção hero */
+.hero-image img {
+    width: 100%; /* Imagem ocupa toda a largura da tela */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+/* Estilo do título da receita na seção hero */
+.hero-image h1 {
+    position: absolute; /* Posicionamento absoluto em relação à seção hero */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a po
